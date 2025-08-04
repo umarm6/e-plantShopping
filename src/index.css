@@ -1,0 +1,29 @@
+* {
+    overflow: scroll;
+}
+
+.grid-row {
+    width: 50%;
+    display: block;
+    margin: 25px auto;
+    align-items: center;
+}
+
+.hr-w40{
+    width: 80%;
+    margin: 10px auto;
+}
+
+.category-title{
+        text-align: center;
+    width: 30%;
+    margin: auto;
+}
+.plants{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Creates 3 columns of equal width */
+  gap: 20px; /* Adds space between grid items */
+  text-align: center;
+  margin-top:30px ;
+}
+ 
